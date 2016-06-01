@@ -1,0 +1,646 @@
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!!! Elementen !!!!!!!!!!!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+html, body
+{
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Poiret One', cursive;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(42,48,60,1);
+    box-sizing: border-box;
+
+}
+
+h1
+{
+    font-family: 'Open Sans Condensed';
+    margin: 0;
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!!! Homescreen !!!!!!!!!!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+.fotoke {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    background-image: url(img/wallpapers-beach-wallpaper-pixel-rocks-beaches-large.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+    float: right;
+    background-image: url(img/IMG_9183_bewerkt.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.frontpage {
+    height: 100vh;
+    margin-top: -50px;
+    overflow: hidden;
+}
+.socialMedia {
+    width: 50%;
+    margin-top: -50px;
+}
+.socialMedia ul li {
+    float: right;
+
+}
+.socialMedia img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.plaats {
+    width: 100%;
+    height: 100px;
+}
+
+/* Typography */
+
+
+/**************************/
+
+#parallax h1 {
+  font-family: 'Open Sans Condensed';
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+#parallax h2 {
+  font-family: 'Open Sans Condensed';
+  font-size: 100px;
+  letter-spacing: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  letter-spacing: .2em;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626;
+}
+
+#parallax p {
+    font-family: 'Open Sans Condensed';
+    color: white;
+    font-size: 1.8em;
+}
+
+/* Section - Block */
+
+
+/**************************/
+
+#parallax .blockleft {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 5%;
+  width: 45%;
+  float: left;
+  text-align: right;
+
+}
+#parallax .blockright {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 5vw;
+  width: 30%;
+  float: left;
+  text-align: justify;
+}
+
+#parallax .skill {
+    height: 30px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: rgba(145,46,61,1);
+}
+#parallax .skillleeg{
+    height: 30px;
+    width: 0%;
+    border-radius: 30px;
+    background-color: rgba(75,202,181,1);
+    -webkit-transition: 1s ease;
+            transition: 1s ease;
+}
+#parallax .skill1, #parallax .skill2, #parallax .skill3, #parallax .skill4 {
+    height: 30px;
+    width: 70%;
+    border-radius: 30px;
+    background-color: rgba(75,202,181,1);
+    -webkit-transition: 1s ease;
+            transition: 1s ease;
+}
+
+#parallax .skill2 {
+    width: 80%;
+}
+
+#parallax .skill3 {
+    width: 85%;
+}
+
+#parallax .skill4 {
+    width: 60%;
+}
+
+#parallax .section-overlay-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.70;
+  filter: alpha(opacity=70);
+}
+
+
+/* Section - Parallax */
+
+
+/**************************/
+
+#parallax .parallax {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#parallax .een {
+  background-image: url(img/IMG_3249_blur.jpg);
+
+  opacity: 1;
+
+  filter: alpha(opacity=100);
+}
+
+#parallax .twee {
+  background-image: url(img/17%20-%202HyfZZF%20copy.jpg);
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!! Content volg !!!!!!!!!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+
+content volg ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poiret One';
+}
+
+content volg ul li {
+    text-align: center;
+    font-size: 2em;
+}
+content volg ul li:first-child {
+    margin-top: 20px;
+}
+content volg ul li img{
+    width: 40vh;
+    margin-bottom: 20px;
+}
+
+.fotovolg{
+    width: 100%;
+    float: left;
+    height: 40vh;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.hide {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!! Content volg !!!!!!!!!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+.vaultbg {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/Vault/Vault_11_BG.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.vaultdoor {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/Vault/Door.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+}
+.codeplek {
+    position: absolute;
+    top: 0;
+
+
+}
+
+.container {
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 30vh;
+
+}
+
+input {
+    margin: 10px;
+    height: 40px;
+    width: 246px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+button {
+    width: 60px;
+    margin-bottom: 3px;
+    height: 60px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.darkred{
+
+    background-color: darkred;
+}
+
+.darkgreen {
+
+    background-color: darkgreen;
+}
+.navlettercolorvault{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!!!!  Vakjes  !!!!!!!!!!!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+.vakjes{
+    float: right;
+    height: 360px;
+    width: 400px;
+    position: absolute;
+    top:50vh;
+    margin-top: -180px;
+    left: 50%;
+    margin-left: -200px;
+}
+.testje {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+    margin-top: -60px;
+    margin-left: -400px;
+}
+.vakfoto {
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(75,202,181,1);
+}
+
+
+.testje2{
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+    margin-top: -240px;
+}
+.vakinfo {
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(229,54,80,1);
+}
+
+.vak1, .vak2, .vak3, .vak4, .vak5, .vak6 {
+    width: 200px;
+    height: 120px;
+    float: left;
+}
+
+.vak1{
+    background-color: rgba(29,36,46,1);
+}
+.vak3{
+    background-color: rgba(75,202,181,1);
+}
+.vak4{
+    background-color: rgba(229,54,80,1);
+}
+.vak6{
+   background-color: rgba(145,46,61,1);
+}
+
+.vak1 p, .vak6 p {
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    font-size: 2.2em;
+    font-family: 'Open Sans Condensed';
+}
+
+
+.vak3 img, .vak4 img {
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    -webkit-animation: beweeg 5s ease infinite;
+            animation: beweeg 5s ease infinite;
+}
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!! flip kaart !!!!!!!!!!!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+
+.f1_container {
+  float: left;
+  width: 20vw;
+  height: 55vh;
+  z-index: 1;
+ margin-left: 10vw;
+    margin-top: 50px;
+}
+.f1_container {
+  -webkit-perspective: 1000;
+          perspective: 1000;
+}
+.f1_card {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.f1_container:hover .f1_card {
+ -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  background-color: #fff;
+}
+
+.f1_container .fotoflip {
+  width: 20vw;
+  height: 45vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*-webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);*/
+}
+.f1_container .fotoflipvault {
+    background-image: url(img/Vault/Vault_11_door.jpg);
+}
+.f1_container .fotoflipwieikvolg {
+    background-image: url(img/wieikvolg.png);
+}
+.f1_container .fotoflipactivity {
+    background-image: url(img/activity.png);
+}
+.witonderkaart{
+    width: 20vw;
+    height: 10vh;
+    text-align: center;
+    background-color: white;
+
+}
+.witonderkaart span {
+    color: black;
+    font-size: 2em;
+    font-family: 'Open Sans Condensed';
+    line-height: 10vh;
+
+}
+.back h3 {
+    color: black;
+    font-family: 'Poiret One';
+    font-size: 1.1em;
+
+}
+.back button {
+    width: 100px;
+    height: 50px;
+    background-color: rgba(229,54,80,1);
+}
+.back button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans Condensed';
+}
+.parent {
+    overflow: visible;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+}
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!!!!!! Nav !!!!!!!!!!!!!!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+nav
+{
+    width: 50%;
+    height: 50px;
+    background-color: rgba(42,48,60,0);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    color: #dfdfdf;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+nav ul li
+{
+    font-family: 'Open Sans Condensed';
+    font-weight: 500;
+    float: left;
+    margin-left: 10px;
+}
+
+nav ul li:nth-child(3),nav ul li:nth-child(2),nav ul li:nth-child(4), nav ul li:nth-child(5), nav ul li:nth-child(6), nav ul li:nth-child(7) {
+    margin-left: 50px;
+    margin-top: 18px;
+}
+
+
+nav ul li img
+{
+    width: 70px;
+    float: left;
+    margin: 0;
+}
+
+.navlettercolor {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+.spacer{
+    height: 50px;
+    width: 50%;
+}
+
+footer {
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    float: right;
+}
+
+footer p a {
+    font-family: 'Open Sans Condensed';
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    line-height: 30px;
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!! Keyframes !!!!!!!!!!!!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+
+@-webkit-keyframes beweeg {
+    0%{
+
+    }
+    90%{
+      margin-top: 40px;
+    }
+    95%{
+       -webkit-transform: rotate(0deg);
+               transform: rotate(0deg);
+       margin-top: 20px;
+    }
+    97% {
+        margin-top: 40px;
+    }
+    99% {
+        margin-top: 35px;
+    }
+    100%{
+        margin-top: 40px;
+    }
+}
+
+@keyframes beweeg {
+    0%{
+
+    }
+    90%{
+      margin-top: 40px;
+    }
+    95%{
+       -webkit-transform: rotate(0deg);
+               transform: rotate(0deg);
+       margin-top: 20px;
+    }
+    97% {
+        margin-top: 40px;
+    }
+    99% {
+        margin-top: 35px;
+    }
+    100%{
+        margin-top: 40px;
+    }
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!!!! Clearfix !!!!!!!!!!!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

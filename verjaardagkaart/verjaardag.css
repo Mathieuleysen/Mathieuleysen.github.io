@@ -1,0 +1,212 @@
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!!! Elementen !!!!!!!!!!! 
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                            
+*/
+html, body
+{
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Poiret One', cursive;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(42,48,60,1);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h1
+{
+    font-family: 'Open Sans Condensed';
+    margin: 0;
+}
+
+
+
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!! Content kaart !!!!!!!!! 
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                            
+*/
+.voor {
+    width: 30vw;
+    height: 70vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    margin:auto;
+    background-color: antiquewhite;
+    z-index: 0;
+    
+}
+
+
+.center {
+    width: 100px;  
+    margin: 0 auto;
+    margin-top: 60vh;
+    
+}
+.titel {
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+    margin-top: 100px;
+    margin-bottom: -110px;
+    font-size: 2em;
+}
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    z-index: 99;
+}
+.ballon {
+    float: left;
+    width: 100%;
+    z-index: 1;
+    
+   
+}
+.ballon1, .ballon2, .ballon3, .ballon4 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: darkred;
+    border: 2px solid black;
+    margin-top: 100%;
+    position: absolute;
+}
+
+.ballon1 {
+    margin-left: 20%;
+    animation: stijg 4s ease infinite;
+}
+
+.ballon2 {
+    margin-left: 40%;
+    animation: stijg 6s ease infinite;
+}
+
+.ballon3{
+    margin-left: 60%;
+    animation: stijg 10s ease infinite;
+}
+.ballon4{
+    margin-left: 80%;
+    animation: stijg 5s ease infinite;
+}
+.staart {
+    width: 5px;
+    height: 50px;
+    border-left: 5px solid black;
+    margin-left: 22.5px;
+    margin-top: 50px;
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!!!!!! Nav !!!!!!!!!!!!!! 
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                            
+*/
+nav
+{
+    width: 50%;
+    height: 50px;
+    background-color: rgba(42,48,60,0);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    color: #dfdfdf;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+nav ul li
+{
+    font-family: 'Open Sans Condensed';
+    font-weight: 500;
+    float: left;
+    margin-left: 10px;
+    
+}
+
+nav ul li:nth-child(2),nav ul li:nth-child(4), nav ul li:nth-child(5), nav ul li:nth-child(6) {
+    margin-left: 50px;
+    margin-top: 18px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li img
+{
+    width: 70px;
+    float: left;
+    margin: 0;
+}
+
+.navlettercolor {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: all 0.5s ease;
+}
+
+.spacer{
+    height: 50px;
+    width: 50%;
+}
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!!!! Keyframe !!!!!!!!!!! 
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                            
+*/
+
+@keyframes stijg {
+    0% {
+        margin-top: 100%;
+    }
+    10%{
+        
+    }
+    20%{
+       
+    }
+    30%{
+       
+    }
+    40%{
+        
+    }
+    50%{
+       
+    }
+    60%{
+        
+    }
+    70%{
+        
+    }
+    80%{
+        
+    }
+    90%{
+       
+    }
+    100%{
+        margin-top: -20%;
+    }
+
+}
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!!!! Clearfix !!!!!!!!!!! 
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                            
+*/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
