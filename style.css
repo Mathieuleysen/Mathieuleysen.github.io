@@ -46,7 +46,7 @@ h1
     height: 100vh;
     float: right;
     background-image: url(img/IMG_9183_bewerkt.jpg);
-    background-position:center;
+    background-position:right;
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -390,8 +390,9 @@ button {
    background-color: rgba(145,46,61,1);
 }
 
-.vak1 p, .vak6 p {
+.vak1 h1, .vak6 p {
     color: white;
+    font-weight: normal;
     text-align: center;
     line-height: 120px;
     font-size: 2.2em;
@@ -472,10 +473,10 @@ button {
     background-image: url(img/Vault/Vault_11_door.jpg);
 }
 .f1_container .fotoflipwieikvolg {
-    background-image: url(img/wieikvolg.png);
+    background-image: url(img/wieikvolg.jpg);
 }
 .f1_container .fotoflipactivity {
-    background-image: url(img/activity.png);
+    background-image: url(img/activity.jpg);
 }
 .witonderkaart{
     width: 20vw;
