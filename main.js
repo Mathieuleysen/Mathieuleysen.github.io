@@ -98,6 +98,8 @@ function main() {
                
            }
        }
+
+       $('.parallax-window').parallax({imageSrc: 'img/IMG_3249_blur.jpg'});
    }
     
     
