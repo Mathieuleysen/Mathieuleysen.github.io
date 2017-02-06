@@ -7,6 +7,7 @@ function main() {
     var ondersteboven = document.getElementById("upsideDown");
     var bovensteonder = document.getElementById("downsideup");
     // nav
+    var homenav = document.getElementsByName("homenavhtml");
     var skillsnav = document.getElementById("skillsnavhtml");
     var opdrachtennav = document.getElementById("opdrachtennavhtml");
     //skills
@@ -111,6 +112,10 @@ function main() {
     
     
     //////// nav (3/4 zelf gemaakt)///////
+    homenav.onclick = function(){
+      test('S0');
+      return false;
+    }
     skillsnav.onclick= function(){
         test('S1'); 
         return false;
