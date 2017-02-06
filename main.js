@@ -48,17 +48,24 @@ function main() {
         ondersteboven.style.width = "0px";
         ondersteboven.style.transition = "width 1s ease";
     }
-    
+    function viewportToPixels(value) {
+  var parts = value.match(/([0-9\.]+)(vh|vw)/)
+  var q = Number(parts[1])
+  var side = window[['innerHeight', 'innerWidth'][['vh', 'vw'].indexOf(parts[2])]]
+  return side * (q/100)
+}
+
+
     window.onscroll = function (){
        var skillsoffset = document.getElementById("S1").offsetTop;
        var bodytop = document.body.scrollTop;
        
-       if (bodytop >= (skillsoffset - 200)){
+       if (bodytop >= (skillsoffset - viewportToPixels('70vh'))){
            skillslider1.className = "skill1";
            skillslider2.className = "skill2";
            skillslider3.className = "skill3";
            skillslider4.className = "skill4";
-       } else if (skillsoffset - 200 >= bodytop){
+       } else if (skillsoffset - viewportToPixels('70vh') >= bodytop){
            skillslider1.className = "skillleeg";
            skillslider2.className = "skillleeg";
            skillslider3.className = "skillleeg";
@@ -99,7 +106,7 @@ function main() {
            }
        }
 
-       $('.parallax-window').parallax({imageSrc: 'img/IMG_3249_blur.jpg'});
+
    }
     
     
